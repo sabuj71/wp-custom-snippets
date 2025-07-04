@@ -1,0 +1,6 @@
+.dialog-close-button:focus,
+.dialog-lightbox-close-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
