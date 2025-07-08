@@ -1,0 +1,27 @@
+* 
+single product page code */
+
+.woo-variation-product-gallery {
+    max-width: 100% !important; 
+    width: 100%;
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .woocommerce .jet-woo-builder-layout-5793.products.jet-woo-builder-products--columns {
+        --columns: 2 !important;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .woocommerce .jet-woo-builder-layout-5793.products.jet-woo-builder-products--columns {
+        --columns: 1 !important;
+    }
+}
+
+li.jet-woo-builder-product {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
