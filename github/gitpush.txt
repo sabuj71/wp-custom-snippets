@@ -1,4 +1,4 @@
-*** …or create a new repository on the command line ***
+***✅✅✅g …or create a new repository on the command line ***
 
 echo "# wp-custom-snippets" >> README.md
 git init
@@ -10,7 +10,22 @@ git push -u origin main
 
 *** …or push an existing repository from the command line ***
 
-git push -u origin main
+✅✅✅ Step-by-step Git Commands:
+
+# Step 1: Go to your local project directory
+cd path/to/your-project-folder
+
+# Step 2: Initialize git if not already done
+git init
+
+# Step 3: Add the remote GitHub repo (replace URL with your own)
 git remote add origin https://github.com/sabuj71/wp-custom-snippets.git
-git branch -M main
+
+# Step 4: Add all files
+git add .
+
+# Step 5: Commit the files
+git commit -m "Added files"
+
+# Step 6: Push to GitHub
 git push -u origin main
